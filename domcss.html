@@ -1,0 +1,35 @@
+<!-- one by one 
+document.getElementById(id).style.property=new style 
+
+
+all at once
+THe setAttribute() method adds a new attributes. -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 id="changecss">rohan varshney</h1>
+
+<br>
+    <h1 id="thapa">thapa</h1>
+<script>
+    document.getElementById('changecss').style.color="red";
+   
+    document.getElementById('thapa').setAttribute(
+        "style","color:blue ; background-color: black; text-align: center; height:100px"
+    )
+
+
+</script>
+</body>
+</html>
